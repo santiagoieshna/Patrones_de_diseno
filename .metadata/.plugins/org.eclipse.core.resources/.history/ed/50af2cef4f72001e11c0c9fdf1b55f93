@@ -1,0 +1,15 @@
+package model;
+
+public class Habitacion {
+
+	public Habitacion() {
+		super();
+		
+	}
+	
+	//min, max 2
+	
+	
+	
+	
+}

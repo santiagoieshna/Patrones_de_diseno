@@ -1,0 +1,11 @@
+package model;
+
+public class CreadorVentana extends CreadorLado {
+
+	@Override
+	public Lado factoryMethod() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

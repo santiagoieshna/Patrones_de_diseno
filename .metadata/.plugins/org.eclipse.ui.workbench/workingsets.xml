@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698134286221_1" label="PD_Creacionales" name="PD_Creacionales">
+<item elementID="=FactoryMethod" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698134304668_2" label="PD_Ejercicios" name="PD_Ejercicios">
+<item elementID="=Ejer_FactoryMethod" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698132176081_0" label="Window Working Set" name="Aggregate for window 1698132176081"/>
+<mruList name="PD_Ejercicios"/>
+</workingSetManager>

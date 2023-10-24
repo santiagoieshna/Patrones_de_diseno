@@ -1,0 +1,11 @@
+package model;
+
+public class CreadorLadoPared extends CreadorLado {
+
+	@Override
+	public Lado factoryMethod() {
+		
+		return new Pared();
+	}
+
+}

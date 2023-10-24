@@ -1,0 +1,5 @@
+package Modelo1;
+
+public class Creator1 extends Creator {
+	private Product producto;
+}

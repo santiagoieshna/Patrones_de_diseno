@@ -1,0 +1,16 @@
+package model;
+
+public class Habitacion {
+	CreadorLado ladoNorte;
+	
+	public Habitacion() {
+		super();
+		CreadorLado
+	}
+	
+	//min, max 2
+	
+	
+	
+	
+}

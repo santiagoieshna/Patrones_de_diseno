@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;model.CreadorVentana&apos; to &apos;CreadorLadoVentana&apos;&#x0D;&#x0A;- Original project: &apos;Ejer_FactoryMethod&apos;&#x0D;&#x0A;- Original element: &apos;model.CreadorVentana&apos;&#x0D;&#x0A;- Renamed element: &apos;model.CreadorLadoVentana&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CreadorVentana&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;model{CreadorVentana.java[CreadorVentana" matchStrategy="1" name="CreadorLadoVentana" qualified="false" references="true" similarDeclarations="false" stamp="1698139729638" textual="false" version="1.0"/>
+</session>
