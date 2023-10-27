@@ -1,0 +1,6 @@
+package factoryMethod;
+
+public abstract class Creador {
+
+	Lado lado;
+}

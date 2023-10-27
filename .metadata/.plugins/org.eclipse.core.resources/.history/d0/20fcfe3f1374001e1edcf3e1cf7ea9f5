@@ -1,0 +1,5 @@
+package factoryMethod;
+
+public enum Orientacion {
+
+}

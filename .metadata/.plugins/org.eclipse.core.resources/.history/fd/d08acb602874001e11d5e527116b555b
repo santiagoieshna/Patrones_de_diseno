@@ -1,0 +1,27 @@
+package factoryMethod;
+
+import java.util.function.Supplier;
+
+import App.Coordenada;
+
+public enum Orientacion {
+	NORTE("SUR", (coordenada)-> new Coordenada(coordenada.)),
+	SUR("NORTE") ,
+	ESTE("OESTE"),
+	OESTE("ESTE");
+	
+	private String orientacionContraria;
+	private Supplier<Coordenada> suplito;
+
+	private Orientacion(String orientacionContraria) {
+		this.orientacionContraria = orientacionContraria;
+	}
+	
+	public String getOrientacionContraria() {
+		return orientacionContraria;
+	}
+	
+	public Orientacion getOrientacionRelativa() {
+		return Orientacion.valueOf(this.getOrientacionContraria());
+	}
+}

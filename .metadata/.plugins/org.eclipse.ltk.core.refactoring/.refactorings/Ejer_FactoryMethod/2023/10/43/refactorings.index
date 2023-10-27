@@ -1,1 +1,7 @@
 1698139729638	Rename type 'CreadorVentana'
+1698344211730	Rename field 'cordenada'
+1698354497713	Rename local variable 'habitacionesCreadas'
+1698356780407	Rename package 'model'
+1698356802352	Rename package 'factoryMethod'
+1698356816757	Rename package 'App'
+1698356993421	Rename field 'coordenada'

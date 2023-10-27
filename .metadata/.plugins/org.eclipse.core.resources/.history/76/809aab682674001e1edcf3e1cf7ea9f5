@@ -1,0 +1,19 @@
+package factoryMethod;
+
+public enum Orientacion {
+	NORTE("SUR"), SUR("NORTE") , ESTE("OESTE"), OESTE("ESTE");
+	
+	private String orientacionContraria;
+
+	private Orientacion(String orientacionContraria) {
+		this.orientacionContraria = orientacionContraria;
+	}
+	
+	public String getOrientacionContraria() {
+		return orientacionContraria;
+	}
+	
+	public Orientacion getOrientacionContraria() {
+		return Orientacion.valueOf(this.getOrientacionContraria());
+	}
+}

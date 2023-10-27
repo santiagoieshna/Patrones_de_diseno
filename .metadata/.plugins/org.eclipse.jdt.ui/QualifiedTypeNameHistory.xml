@@ -3,4 +3,25 @@
 <fullyQualifiedTypeName name="Modelo1.Product"/>
 <fullyQualifiedTypeName name="model.CreadorLadoPared"/>
 <fullyQualifiedTypeName name="model.CreadorLado"/>
+<fullyQualifiedTypeName name="java.util.function.Supplier"/>
+<fullyQualifiedTypeName name="App.Coordenada"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="factoryMethod.Orientacion"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="factoryMethod.Lado"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="controller.Coordenada"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.sql.Array"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.dsig.keyinfo.KeyValue"/>
+<fullyQualifiedTypeName name="java.util.concurrent.ConcurrentHashMap"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="java.util.function.Function"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="model.Orientacion"/>
+<fullyQualifiedTypeName name="controller.Laberinto"/>
+<fullyQualifiedTypeName name="model.Habitacion"/>
+<fullyQualifiedTypeName name="controller.TableroLaberinto"/>
 </qualifiedTypeNameHistroy>

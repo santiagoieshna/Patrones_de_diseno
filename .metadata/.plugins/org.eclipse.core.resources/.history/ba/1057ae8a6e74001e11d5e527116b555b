@@ -1,0 +1,20 @@
+package App;
+
+import controller.Laberinto;
+import controller.TableroLaberinto;
+import model.Habitacion;
+import model.Orientacion;
+
+public class App {
+	public static void main(String[] args) {
+		Laberinto laberinto = new Laberinto();
+		TableroLaberinto tablero= new TableroLaberinto(laberinto);
+		
+		
+		System.out.println("N Habitaciones: "+Habitacion.getNumeroDeHabitaciones());
+		System.out.println(tablero.printRangoX(););
+		System.out.println(tablero.printRangoY(););
+		tablero.printLaberintoNumeros();
+		tablero.printAllCoordenadas();
+	}
+}

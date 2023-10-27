@@ -1,0 +1,75 @@
+package factoryMethod;
+
+import java.util.HashMap;
+import java.util.Random;
+
+public class Habitacion {
+
+	HashMap<Orientacion, Lado> lados;
+	static final int maximoLados =4;
+	Orientacion puertaEntrada;
+	Orientacion puertaSalida;
+
+	public Habitacion(Orientacion puertaEntrada) {
+
+		super();
+		this.puertaEntrada = puertaEntrada;
+
+		lados.put(puertaEntrada, new CreadorPuerta().factoryMethod());
+
+		puertaSalida = genOrientacionRandom();
+
+		lados.put(puertaSalida, new CreadorPuerta().factoryMethod());
+
+		lados.put(genOrientacionRandom(), genLadoRandon());
+		
+		lados.put(genOrientacionRandom(), genLadoRandon());
+
+	}
+	
+	public Habitacion(Orientacion puertaEntrada, HashMap<Orientacion, Lado> ladosOcupados) {
+		
+		super();
+		this.puertaEntrada = puertaEntrada;
+		
+		lados.put(puertaEntrada, new CreadorPuerta().factoryMethod());
+		
+		puertaSalida = genOrientacionRandom();
+		
+		lados.put(puertaSalida, new CreadorPuerta().factoryMethod());
+		
+		lados.put(genOrientacionRandom(), genLadoRandon());
+		
+		lados.put(genOrientacionRandom(), genLadoRandon());
+		
+	}
+
+	private Lado genLadoRandon() {
+		Lado lado=(new Random().nextInt(2)==0)? new CreadorVentana().factoryMethod():new CreadorMuro().factoryMethod();
+		return lado;
+	}
+
+	private Orientacion genOrientacionRandom() {
+		Orientacion orientacionCandidata;
+		do {
+			orientacionCandidata = Orientacion.values()[new Random().nextInt(4)];
+
+		} while (lados.containsKey(orientacionCandidata));
+
+		return orientacionCandidata;
+	}
+
+	public Orientacion getPuertaEntrada() {
+		return puertaEntrada;
+	}
+
+	public Orientacion getPuertaSalida() {
+		return puertaSalida;
+	}
+
+	public Map<Orientacion, Lado> getLados() {
+		return lados;
+	}
+	
+
+}

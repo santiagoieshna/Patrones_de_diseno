@@ -1,0 +1,12 @@
+package App;
+
+import controller.Laberinto;
+import controller.TableroLaberinto;
+
+public class App {
+	public static void main(String[] args) {
+		Laberinto laberinto = new Laberinto();
+		TableroLaberinto tablero= new TableroLaberinto(laberinto);
+		tablero.printLaberintoNumeros();
+	}
+}
