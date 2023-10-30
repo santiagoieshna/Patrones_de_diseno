@@ -27,9 +27,11 @@ public class TableroLaberinto {
 				if(tablero.containsKey(coordenada)) {
 					if(laberinto.getCoordenadFinal().equals(coordenada)) {
 //						System.err.print(tablero.get(coordenada).getNumeroHabitacion());
-						System.err.print(1);
+//						System.err.print(1);
+						System.out.print(2);
 					}else if(laberinto.getCoordenadOrigen().equals(coordenada)){
-						System.err.print(0);
+//						System.err.print(0);
+						System.out.print(0);
 					}
 					else {	
 //						System.out.print(tablero.get(coordenada).getNumeroHabitacion());

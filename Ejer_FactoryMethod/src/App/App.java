@@ -7,7 +7,7 @@ import model.Orientacion;
 
 public class App {
 	public static void main(String[] args) {
-		int numeroHabitaciones = 360;
+		int numeroHabitaciones =500;
 		boolean respuesta = false;
 
 		while (!respuesta) {
@@ -16,13 +16,14 @@ public class App {
 				Laberinto laberinto = new Laberinto(numeroHabitaciones);
 				TableroLaberinto tablero = new TableroLaberinto(laberinto);
 				System.out.println("N Habitaciones: " + Habitacion.getNumeroDeHabitaciones());
-				tablero.printRangoX();
-				tablero.printRangoY();
-				tablero.printAllCoordenadas();
+//				tablero.printRangoX();
+//				tablero.printRangoY();
+//				tablero.printAllCoordenadas();
 				System.err.println("----------------------");
 				tablero.printLaberintoNumeros();
 				respuesta = true;
 			} catch (Exception e) {
+				e.printStackTrace();
 				System.err.println("NO");
 				respuesta = false;
 			}
