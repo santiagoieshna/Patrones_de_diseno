@@ -24,4 +24,10 @@
 <fullyQualifiedTypeName name="controller.Laberinto"/>
 <fullyQualifiedTypeName name="model.Habitacion"/>
 <fullyQualifiedTypeName name="controller.TableroLaberinto"/>
+<fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+<fullyQualifiedTypeName name="patron.AbstractProductoB"/>
+<fullyQualifiedTypeName name="patron.AbstractProductoA"/>
+<fullyQualifiedTypeName name="patron.ProductoA1"/>
+<fullyQualifiedTypeName name="patron.ProductoA2"/>
+<fullyQualifiedTypeName name="patron.AbstractFactory"/>
 </qualifiedTypeNameHistroy>

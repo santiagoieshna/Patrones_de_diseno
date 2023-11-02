@@ -1,7 +1,0 @@
-package Modelo1;
-
-public abstract class Creator1 extends Creator {
-	Product producto; // P¡Linea continua del UML
-	public abstract Product fectoryMethod();
-	
-}

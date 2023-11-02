@@ -1,6 +1,0 @@
-package Modelo1;
-
-public  class CreatorConcretoA extends Creator {
-	
-	
-}

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698134286221_1" label="PD_Creacionales" name="PD_Creacionales">
+<item elementID="=Abstract_Factory" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=FactoryMethod" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698134304668_2" label="PD_Ejercicios" name="PD_Ejercicios">
 <item elementID="=Ejer_FactoryMethod" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Ejer_AbstractFactory_01" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Ejer_AbstractFactory_Civilizaciones" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698132176081_0" label="Window Working Set" name="Aggregate for window 1698132176081"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1698740806790_6" label="Multiple Working Sets" name="Aggregate:PD_Creacionales:PD_Ejercicios:">
+<workingSet IMemento.internal.id="PD_Creacionales"/>
+<workingSet IMemento.internal.id="PD_Ejercicios"/>
+</workingSet>
 <mruList name="PD_Ejercicios"/>
+<mruList name="PD_Creacionales"/>
 </workingSetManager>
