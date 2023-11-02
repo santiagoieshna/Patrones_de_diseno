@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="products.GuerreroACaballo" project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/GuerreroACaballo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1005" y="445"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="products.GuerreroAPie" project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/GuerreroAPie.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="798" y="442"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="products.asirios.GuerreroACaballoAsirio" 
+    project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/asirios/GuerreroACaballoAsirio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="196" x="894" y="239"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="products.GuerreroArmaADistancia" project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/GuerreroArmaADistancia.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="566" y="438"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="products.asirios.GuerreroAPieAsirio" project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/asirios/GuerreroAPieAsirio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="177" x="707" y="237"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="products.asirios.GuerreroArmaAdistanciaAsirio" 
+    project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/asirios/GuerreroArmaAdistanciaAsirio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="237" x="465" y="236"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="products.persas.GuerreroACaballoPersa" 
+    project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/persas/GuerreroACaballoPersa.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="200" x="910" y="564"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="factory.AbstractFactoryWar" project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/factory/AbstractFactoryWar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1332" y="445"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="factory.FactoryWarAsirio" project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/factory/FactoryWarAsirio.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1330" y="131"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="products.persas.GuerreroArietedeGuerraPersa" 
+    project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/persas/GuerreroArietedeGuerraPersa.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="241" x="-40" y="561"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="products.GuerreroVehiculoDeLucha" project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/GuerreroVehiculoDeLucha.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="343" y="437"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="products.GuerreroArieteDeGuerra" project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/GuerreroArieteDeGuerra.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="112" y="435"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="products.persas.GuerreroAPiePersa" project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/persas/GuerreroAPiePersa.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="182" x="719" y="564"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="products.persas.GuerreroArmaADistanciaPersa" 
+    project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/persas/GuerreroArmaADistanciaPersa.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="246" x="467" y="562"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="products.persas.GuerreroVehiculoeLuchaPersa" 
+    project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/persas/GuerreroVehiculoeLuchaPersa.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="249" x="210" y="561"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="products.asirios.GuerreroVehiculoDeGuerraAsirio" 
+    project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/asirios/GuerreroVehiculoDeGuerraAsirio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="260" x="197" y="234"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="products.asirios.GuerreroArieteDeGuerraAsirio" 
+    project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/products/asirios/GuerreroArieteDeGuerraAsirio.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="106" width="242" x="-52" y="231"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="factory.FactoryWarPersa" project="Ejer_AbstractFactory_Civilizaciones" 
+    file="/Ejer_AbstractFactory_Civilizaciones/src/factory/FactoryWarPersa.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1345" y="786"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="19">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="21">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="28">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="12"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
