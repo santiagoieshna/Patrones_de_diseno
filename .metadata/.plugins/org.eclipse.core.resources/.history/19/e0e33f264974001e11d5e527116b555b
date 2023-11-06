@@ -1,7 +1,0 @@
-package factoryMethod;
-
-public interface Lado {
-	
-	
-
-}
