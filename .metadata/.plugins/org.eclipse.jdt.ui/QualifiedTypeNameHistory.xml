@@ -30,4 +30,13 @@
 <fullyQualifiedTypeName name="patron.ProductoA1"/>
 <fullyQualifiedTypeName name="patron.ProductoA2"/>
 <fullyQualifiedTypeName name="patron.AbstractFactory"/>
+<fullyQualifiedTypeName name="products.GuerreroACaballo"/>
+<fullyQualifiedTypeName name="products.GuerreroAPie"/>
+<fullyQualifiedTypeName name="products.asirios.GuerreroAPieAsirio"/>
+<fullyQualifiedTypeName name="products.asirios.TipoAsirio"/>
+<fullyQualifiedTypeName name="factory.FactoryWarAsirio"/>
+<fullyQualifiedTypeName name="products.GuerreroArmaADistancia"/>
+<fullyQualifiedTypeName name="products.GuerreroArieteDeGuerra"/>
+<fullyQualifiedTypeName name="products.GuerreroVehiculoDeLucha"/>
+<fullyQualifiedTypeName name="factory.AbstractFactoryWar"/>
 </qualifiedTypeNameHistroy>
