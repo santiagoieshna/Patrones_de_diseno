@@ -3,22 +3,35 @@ package porrazo;
 public class NutritionFacts {
 
 	// obligatorias
-	private  int servingSize;
+	public  int servingSize;
 	private  int servings;
 	// opcionales
 	private  int calories;
 	private  int fat;
 	
-	private void setServingSize(int servingSize) {
+	public static ServingSize builder() {
+		return new BuilderNutritionFacts();
+	}
+	
+	// Puro invent mio por un error del test
+	public NutritionFacts() {
+		super();
+		this.servingSize = 0;
+		this.servings = 0;
+		this.calories = 0;
+		this.fat = 0;
+	}
+
+	public void setServingSize(int servingSize) {
 		this.servingSize = servingSize;
 	}
-	private void setServings(int servings) {
+	public void setServings(int servings) {
 		this.servings = servings;
 	}
-	private void setCalories(int calories) {
+	public void setCalories(int calories) {
 		this.calories = calories;
 	}
-	private void setFat(int fat) {
+	public void setFat(int fat) {
 		this.fat = fat;
 	}
 	public int getServingSize() {
