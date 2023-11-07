@@ -9,11 +9,9 @@ class test {
 	@Test
 	void test() {
 		Persona build = Persona.builder()
-				.id(1)
-				.nombre("Luis")
-				.apellidos("Pi y Pi")
-				.color("rojo")
-				.build();
+				.id(12)
+				.nombre("hola")
+				.apellidos("Zambrano^2").
 		
 	}
 

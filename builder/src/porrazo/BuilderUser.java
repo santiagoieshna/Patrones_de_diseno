@@ -1,11 +1,32 @@
 package porrazo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BuilderUser implements Id, Nombre, Apellidos, Opcionales {
 
 	private Persona persona;
-
+	
 	public Id builder() {
 		this.persona = new Persona();
+		return this;
+	}
+	
+	@Override
+	public Nombre id(int id) {
+		persona.id = id;
+		return this;
+	}
+
+	@Override
+	public Apellidos nombre(String nombre) {
+		persona.nombre = nombre;
+		return this;
+	}
+
+	@Override
+	public Opcionales apellidos(String apellidos) {
+		persona.appellidos = apellidos;
 		return this;
 	}
 
@@ -26,22 +47,5 @@ public class BuilderUser implements Id, Nombre, Apellidos, Opcionales {
 		return persona;
 	}
 
-	@Override
-	public Opcionales apellidos(String apellidos) {
-		persona.appellidos = apellidos;
-		return this;
-	}
-
-	@Override
-	public Apellidos nombre(String nombre) {
-		persona.nombre = nombre;
-		return this;
-	}
-
-	@Override
-	public Nombre id(int id) {
-		persona.id = id;
-		return this;
-	}
 
 }
