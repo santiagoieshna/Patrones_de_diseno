@@ -7,8 +7,12 @@ public class BuilderUser implements Id, Nombre, Apellidos, Opcionales {
 
 	private Persona persona;
 	
-	public Id builder() {
+	public BuilderUser() {
+		super();
 		this.persona = new Persona();
+	}
+
+	public Id builder() {
 		return this;
 	}
 	
