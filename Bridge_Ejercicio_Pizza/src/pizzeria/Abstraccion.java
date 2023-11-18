@@ -9,8 +9,10 @@ public class Abstraccion {
 	}
 	
 	public Pizza hacerPizza() {
+		horneable.subirTemperatura();
+		horneable.esperarTiempo();
 		
-		return null;
+		return horneable.hornear();
 	}
 	
 }
