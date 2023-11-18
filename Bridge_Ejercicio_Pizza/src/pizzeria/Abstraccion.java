@@ -8,6 +8,9 @@ public class Abstraccion {
 		this.horneable = horneable;
 	}
 	
-	
+	public Pizza hacerPizza() {
+		
+		return null;
+	}
 	
 }

@@ -11,8 +11,8 @@ class ClienteTest {
 	@Test
 	void test() {
 
-		ImpresoraVieja impresoraVieja = new ImpresoraVieja();
-		Coloreable colorCliente = new AdapterImpresoraVieja(impresoraVieja);
+		ImpresoraSiemens impresoraVieja = new ImpresoraSiemens("57M2");
+		Iimpresora colorCliente = new AdapterImpresoraSiemens(impresoraVieja);
 		
 		String rosaPaloHex = "#FFE3E8"; // RGB : { 255, 227, 232}
 		
