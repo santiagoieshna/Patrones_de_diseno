@@ -8,6 +8,11 @@ public class Abstraccion {
 		this.horneable = horneable;
 	}
 	
-	
+	public Pizza hacerPizza() {
+		horneable.subirTemperatura();
+		horneable.esperarTiempo();
+		
+		return horneable.hornear();
+	}
 	
 }

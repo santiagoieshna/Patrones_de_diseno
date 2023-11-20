@@ -6,4 +6,5 @@ public interface Horneable {
 	Integer esperarTiempo();
 	
 	Pizza hornear();
+	
 }
