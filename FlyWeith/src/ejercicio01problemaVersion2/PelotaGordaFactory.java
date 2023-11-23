@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class PelotaGordaFactory {
-	private Map<int, int> cachePeso;
-	private Map<String, String> cacheColor;
+//	private Map<int, int> cachePeso;
+//	private Map<String, String> cacheColor;
 
-	public PelotaGordaFactory(){
-		cache
+	public void PelotaGordaFactory(){
+//		cache
 	}
 
 
