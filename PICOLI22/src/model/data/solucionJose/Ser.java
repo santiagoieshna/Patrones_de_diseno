@@ -31,7 +31,9 @@ public class Ser  implements PropertyChangeListener{
 	// envejecer es igual para todo, esto no cambia
 	public void envejecer() {
 		edad++;
+		// Aqui aviso que he envejecido
 		if(edad==18) etapaVital=new Adulto();
+		
 		if(edad==65) etapaVital=new EtapaVital() {
 			
 			@Override
@@ -68,6 +70,9 @@ public class Ser  implements PropertyChangeListener{
 	
 	public void alimentar(int sueldo) {
 		etapaVital.alimentar(sueldo);
+		//- Enveccer -
+		envejecer();
+		
 //		if (isMenor())
 //			alimentarMenor(sueldo);
 //		if (isAdulto())

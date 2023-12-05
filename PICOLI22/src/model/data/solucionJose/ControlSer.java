@@ -1,7 +1,7 @@
 package model.data.solucionJose;
 
 public class ControlSer {
-
+	
 	public static Ser crearSer() {
 		return new Menor();
 	}

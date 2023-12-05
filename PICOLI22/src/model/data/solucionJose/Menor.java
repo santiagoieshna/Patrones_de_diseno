@@ -9,4 +9,9 @@ public class Menor implements EtapaVital{
 		System.out.println("que guay soy menor");
 		
 	}
+	
+	public EtapaVital changeState() {
+		return new Adulto();
+	}
+	
 }
