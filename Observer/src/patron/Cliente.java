@@ -8,7 +8,7 @@ class Cliente {
 
 	@Test
 	void test() {
-		Publisher ropitaShein = new Publisher(false);
+		ConcretePublisher ropitaShein = new ConcretePublisher(false);
 		ConcreteSubscribers	subscriptor = new ConcreteSubscribers("Elena");
 		ropitaShein.subscribe(subscriptor);
 		

@@ -1,5 +1,5 @@
 package patron;
 
-public interface Subscriber {
-	void update(String context);
+public interface Subscriber<T> {
+	void update(T context);
 }
