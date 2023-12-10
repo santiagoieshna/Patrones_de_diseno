@@ -1,6 +1,10 @@
-package banco02;
+package Factorias;
 
+import banco02.AbstractProductAccount;
+import banco02.AbstractProductCreditCard;
+import banco02.AbstractProductDebitCard;
 import banco02.ConcreteYoung.ConcreteProdutAccountYoung;
+import banco02.ConcreteYoung.CreditCardYoung;
 
 public class ConcreteFactoryYoung implements AbstractFactory{
 
@@ -11,8 +15,7 @@ public class ConcreteFactoryYoung implements AbstractFactory{
 
 	@Override
 	public AbstractProductCreditCard createCreditCard() {
-		// TODO Auto-generated method stub
-		return null;
+		return new CreditCardYoung();
 	}
 
 	@Override

@@ -1,4 +1,8 @@
-package banco02;
+package Factorias;
+
+import banco02.AbstractProductAccount;
+import banco02.AbstractProductCreditCard;
+import banco02.AbstractProductDebitCard;
 
 public interface AbstractFactory {
 

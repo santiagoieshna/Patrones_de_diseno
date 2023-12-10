@@ -28,4 +28,6 @@ public class Facade {
 		plato.setComida(horno.sacarComida());
 	}
 	
+	
+	
 }

@@ -5,7 +5,7 @@ public  class CreatorConcretoA extends Creator {
 	@Override
 	public Product fectoryMethod() {
 		// TODO Auto-generated method stub
-		return null;
+		return new ProductConcretoA();
 	}
 	
 	

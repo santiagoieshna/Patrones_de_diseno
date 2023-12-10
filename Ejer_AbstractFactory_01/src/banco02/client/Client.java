@@ -1,6 +1,6 @@
 package banco02.client;
 
-import banco02.AbstractFactory;
+import Factorias.AbstractFactory;
 import banco02.AbstractProductAccount;
 import banco02.AbstractProductCreditCard;
 
