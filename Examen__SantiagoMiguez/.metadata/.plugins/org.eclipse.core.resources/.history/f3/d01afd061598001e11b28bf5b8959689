@@ -1,0 +1,30 @@
+package factory_santi.factory;
+
+import factory_santi.product.Operacion;
+import modelo.TarjetaPass;
+import modelo.TipoCliente;
+import modelo.TipoPago;
+
+public class ConcreteFactoryOperacion implements AbstractFactoryOperacion{
+	//Aqui ya estoy en blanco, me tienen loco que cliente esporadico cambie de tipo de pago y que varie tanto los parametros 
+	// de constructores...
+	@Override
+	public Operacion createOperacionEsporadico(TipoCliente tipoCliente, TipoPago tipoPago) {
+		OperacionCreator operacion = new OperacionCreator() 
+		return null;
+	}
+
+	@Override
+	public Operacion createOperacionHabitual(TipoCliente tipoCliente, TarjetaPass tarjeta) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Operacion createOperacionSocio(TipoCliente tipoCliente, String nombreYApellidos, float bonficacion,
+			String codeApp) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

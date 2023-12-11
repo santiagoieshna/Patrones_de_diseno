@@ -1,0 +1,62 @@
+package tests;
+
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
+
+import java.time.LocalDate;
+import java.util.Optional;
+
+import org.junit.jupiter.api.Test;
+
+import adapter_santi.AdapterCaja;
+import adapter_santi.IPagoGasolinera;
+import factory_santi.product.Operacion;
+import modelo.Caja;
+import modelo.Par;
+import modelo.Repostaje;
+import modelo.RepostajeNoTerminadoException;
+import modelo.TipoPago;
+import objectMother.OM;
+
+public class AdapterTest {
+	/*
+	 * Para crear el adapter, he decidido crear una interface llamda IPagoGasolinera
+	 * La interface tendra como naming y retorno de datos, el mismo que caja (ya que no tenemos mas
+	 * informacion de  que comportamientos adicionales podriamos tener aqui).
+	 * 
+	 * La interface hara que desacoplemos el servicio (caja) del cliente, respetando asi el Open/Close a futuros.
+	 * 
+	 * Paso 1: Creo interface IPagoGasolinera
+	 * Paso 2: Creo AdapterCaja -> este hereda de IPagoGasolinera y tiene Caja como atributo
+	 * Paso 3: AdapterCaja -> implementamos y adecuamos sus datos
+	 * PAso 4: Conecto este test (cliente) al adapter trabajando sobre la interface (Respetamos Open/Close).
+	 * 
+	 * Nota: me doy la liberta de hacer esto en el examen, tocar el cliente en un trabajo real se deberia de pedir
+	 * permiso.
+	 * 
+	 */
+	@Test
+	void AdaptTestEsporadico() {
+		//operacion esporadica con repostaje random 
+		Caja instance = new Caja(); 
+		String matricula = null;
+		OM om = new OM();
+		Operacion operacion = null;
+		try {
+			operacion = new Operacion(om.getRepostajeRandom(om.getSurtidores()), LocalDate.now(),matricula,
+					TipoPago.contado);
+		} catch (RepostajeNoTerminadoException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Repostaje repostaje = operacion.getRepostaje();
+		//Aqui el adapter para no pasar tres parametros a la caja
+		IPagoGasolinera cajaGasolinera = new AdapterCaja(instance); // Interface con la que trabajamos el Adapter
+		cajaGasolinera.procesarPago(operacion);
+		Optional<Par<TipoPago, Float>> pagoByIdRepostaje = cajaGasolinera.getPagoByIdRepostaje(operacion.getRepostaje());
+		Par<TipoPago, Float> par = pagoByIdRepostaje.get();
+		assertNotNull(par);
+		assertTrue(par.getFirst()==operacion.getTipoPago()&&par.getSecond()==repostaje.getImporteReal());
+	}
+		
+}

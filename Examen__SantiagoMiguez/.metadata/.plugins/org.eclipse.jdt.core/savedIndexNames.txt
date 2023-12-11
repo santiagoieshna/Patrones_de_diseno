@@ -1,0 +1,19 @@
+INDEX VERSION 1.134+C:\Users\Administrador\Desktop\Examen__SantiagoMiguez\.metadata\.plugins\org.eclipse.jdt.core
+2252051003.index
+4143159095.index
+1432436058.index
+1696264553.index
+3727390639.index
+3254890459.index
+927618158.index
+1313702884.index
+4071358865.index
+3415682986.index
+1865797976.index
+1362783187.index
+1865120867.index
+2474125162.index
+323503125.index
+2201539290.index
+3815444056.index
+2686761869.index

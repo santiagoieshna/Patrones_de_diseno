@@ -1,0 +1,19 @@
+package factory_santi;
+
+import java.time.LocalDate;
+
+import modelo.Repostaje;
+import modelo.RepostajeNoTerminadoException;
+import modelo.TarjetaPass;
+import modelo.TipoPago;
+
+public class OperacionTarjeta {
+	private TarjetaPass tarjeta;
+	private TipoPago tipoPago;
+
+	public OperacionTarjeta(Repostaje repostaje, LocalDate fecha, String matricula, TarjetaPass tarjeta) throws RepostajeNoTerminadoException {
+		this(repostaje,fecha,matricula);
+		this.tarjeta = tarjeta;
+		this.tipoPago = TipoPago.tarjeta;
+	}
+}

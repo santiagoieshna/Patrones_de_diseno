@@ -1,0 +1,14 @@
+package factory_santi.factory;
+
+import modelo.Operacion;
+
+public abstract class OperacionCreator {
+	
+	public Operacion crear(TipoCliente tipoCliente) {
+		
+	}
+	
+	public abstract Operacion factoryMethod() {
+		
+	}
+}

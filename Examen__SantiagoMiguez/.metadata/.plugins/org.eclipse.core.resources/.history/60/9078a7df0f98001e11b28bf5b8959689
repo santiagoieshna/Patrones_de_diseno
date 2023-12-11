@@ -1,0 +1,23 @@
+package modelo;
+
+import java.util.function.Supplier;
+
+import factory_santi.factory.AbstractFactory;
+import factory_santi.factory.AbstractFactoryOperacion;
+
+public enum TipoCliente {
+	esporadico(()-> TipoPago.contado),
+	habitual(()-> TipoPago.tarjeta),
+	asociado(()-> TipoPago.aplicacion);
+	
+	private Supplier<TipoPago> tipoPago;
+	
+	private TipoCliente(Supplier<TipoPago> tipoPago) {
+		this.tipoPago = tipoPago;
+	}
+
+	public AbstractFactoryOperacion getTipoPago() {
+		
+		return tipoPago.get();
+	}
+}

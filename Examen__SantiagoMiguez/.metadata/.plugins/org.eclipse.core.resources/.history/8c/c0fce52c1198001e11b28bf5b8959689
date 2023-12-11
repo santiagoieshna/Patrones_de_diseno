@@ -1,0 +1,18 @@
+package factory_santi.product;
+
+import java.time.LocalDate;
+
+import modelo.Operacion;
+import modelo.Repostaje;
+import modelo.RepostajeNoTerminadoException;
+import modelo.TipoPago;
+
+public class OperacionContado extends Operacion{
+
+//	private TipoPago tipoPago;
+
+	public OperacionContado(Repostaje repostaje, LocalDate fecha, String matricula) throws RepostajeNoTerminadoException {
+		super(repostaje,fecha,matricula);
+//		this.tipoPago = tipoPagoEsporadico;
+	}
+}

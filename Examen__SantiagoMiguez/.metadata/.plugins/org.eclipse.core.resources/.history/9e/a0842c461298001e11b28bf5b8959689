@@ -1,0 +1,20 @@
+package factory_santi.factory;
+
+import java.time.LocalDate;
+
+import factory_santi.product.OperacionEsporadico;
+import modelo.Operacion;
+import modelo.Repostaje;
+import modelo.RepostajeNoTerminadoException;
+import modelo.TipoPago;
+
+public class OperacionAsociado extends OperacionCreator {
+	
+
+	@Override
+	public Operacion factoryMethod(Repostaje repostaje, LocalDate fecha, String matricula) throws RepostajeNoTerminadoException {
+		
+		return new OperacionEsporadico(repostaje, fecha, matricula);
+	}
+
+}

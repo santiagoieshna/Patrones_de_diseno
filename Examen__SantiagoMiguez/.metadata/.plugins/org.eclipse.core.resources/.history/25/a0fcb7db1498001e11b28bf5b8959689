@@ -1,0 +1,12 @@
+package factory_santi.factory;
+
+import factory_santi.product.Operacion;
+import modelo.TarjetaPass;
+import modelo.TipoPago;
+
+public interface AbstractFactoryOperacion {
+	public Operacion createOperacionEsporadico( TipoPago tipoPago);
+	public Operacion createOperacionHabitual( TarjetaPass tarjeta);
+	public Operacion createOperacionSocio(String nombreYApellidos, float bonficacion,
+			String codeApp);
+}

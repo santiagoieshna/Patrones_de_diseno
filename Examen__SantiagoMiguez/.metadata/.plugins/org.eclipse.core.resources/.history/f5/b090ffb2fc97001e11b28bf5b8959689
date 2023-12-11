@@ -1,0 +1,43 @@
+package adapter_santi;
+
+import java.util.Optional;
+
+import modelo.Caja;
+import modelo.Operacion;
+import modelo.Par;
+import modelo.TipoPago;
+
+public class AdapterCaja implements IPagoGasolinera {
+	private Caja caja;
+	
+	public AdapterCaja(Caja caja) {
+		super();
+		this.caja = caja;
+	}
+
+	@Override
+	public void procesarPago(Operacion operacion) {
+		// repostaje.getId(), repostaje.getImporteReal(), operacion.getTipoPago()
+		// long idRepostaje, float cantidad, TipoPago tipoPago
+		long idRepostaje = convertToFormatCajaIdRepostaje(operacion);// Naming feo? pensar despues
+		float cantidad = convertToFormatCajaCantidadRepostaje(operacion);
+		
+	}
+
+
+	
+
+	@Override
+	public Optional<Par<TipoPago, Float>> getPagoByIdRepostaje(long idRepostaje) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
+	
+	private long convertToFormatCajaIdRepostaje(Operacion operacion) {
+		return operacion.getRepostaje().getId();
+	}
+	private float convertToFormatCajaCantidadRepostaje(Operacion operacion) {
+		return operacion.getRepostaje().getImporteReal();
+	}
+
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="modelo.Caja"/>
+    <fullyQualifiedTypeName name="adapter_santi.IPagoGasolinera"/>
+    <fullyQualifiedTypeName name="adapter_santi.AdapterCaja"/>
+    <fullyQualifiedTypeName name="modelo.Repostaje"/>
+    <fullyQualifiedTypeName name="java.beans.PropertyChangeSupport"/>
+    <fullyQualifiedTypeName name="java.beans.PropertyChangeListener"/>
+    <fullyQualifiedTypeName name="java.util.function.Supplier"/>
+    <fullyQualifiedTypeName name="factory_santi.factory.OperacionAsociado"/>
+    <fullyQualifiedTypeName name="factory_santi.product.OperacionContado"/>
+    <fullyQualifiedTypeName name="modelo.TipoPago"/>
+    <fullyQualifiedTypeName name="modelo.Operacion"/>
+    <fullyQualifiedTypeName name="factory_santi.factory.AbstractFactory"/>
+    <fullyQualifiedTypeName name="modelo.TarjetaPass"/>
+    <fullyQualifiedTypeName name="factory_santi.product.OperacionEsporadico"/>
+    <fullyQualifiedTypeName name="factory_santi.product.OperacionAsociado"/>
+    <fullyQualifiedTypeName name="factory_santi.product.OperacionTarjeta"/>
+    <fullyQualifiedTypeName name="factory_santi.factory.AbstractFactoryOperacion"/>
+    <fullyQualifiedTypeName name="modelo.TipoCliente"/>
+    <fullyQualifiedTypeName name="factory_santi.factory.OperacionCreator"/>
+</qualifiedTypeNameHistroy>

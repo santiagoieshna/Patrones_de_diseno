@@ -1,0 +1,10 @@
+package factory_santi.factory;
+
+import modelo.Operacion;
+import modelo.TipoPago;
+
+public interface AbstractFactoryOperacion {
+	public Operacion createOperacionEsporadico(OperacionCreator factoryOperacion , TipoPago tipoPago);
+	public Operacion createOperacionHabitual(OperacionCreator factoryOperacion , TipoPago tipoPago);
+	public Operacion createOperacionSocio(OperacionCreator factoryOperacion , TipoPago tipoPago);
+}

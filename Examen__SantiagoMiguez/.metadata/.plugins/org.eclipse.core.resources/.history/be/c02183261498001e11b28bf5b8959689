@@ -1,0 +1,25 @@
+package factory_santi.factory;
+
+import java.time.LocalDate;
+
+import factory_santi.product.Operacion;
+import modelo.Repostaje;
+import modelo.RepostajeNoTerminadoException;
+import modelo.TipoCliente;
+
+public abstract class OperacionCreator {
+	
+	//me estoy rayando muchisimo, el cliente esporacido me mató
+	public Operacion crear(TipoCliente tipoCliente,Repostaje repostaje, LocalDate fecha, String matricula) throws RepostajeNoTerminadoException {
+		
+		Operacion operacion = tipoCliente.factoryMethod(); // obtendo el tipo de OperacionConCliente;
+		//deja todo en un mismo paquete para hacer los setters Protected? 
+		operacion.setRepostaje(repostaje);
+		operacion.setFecha(fecha);
+		operacion.setMatricula(matricula);
+		return operacion;
+	}
+	
+	public abstract void meterDEmasCampos();
+	
+}

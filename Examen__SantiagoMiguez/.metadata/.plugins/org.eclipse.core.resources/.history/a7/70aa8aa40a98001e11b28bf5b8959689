@@ -1,0 +1,13 @@
+package modelo;
+
+public enum TipoCliente {
+	esporadico,
+	habitual,
+	asociado;
+	
+	
+	public TipoPago getTipoPago() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

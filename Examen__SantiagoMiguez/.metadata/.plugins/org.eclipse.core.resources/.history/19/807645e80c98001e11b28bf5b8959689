@@ -1,0 +1,13 @@
+package factory_santi.factory;
+
+import modelo.Operacion;
+
+public class OperacionAsociado extends OperacionCreator {
+
+	@Override
+	public Operacion factoryMethod() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

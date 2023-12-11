@@ -1,0 +1,5 @@
+package factory_santi.factory;
+
+public interface AbstractFactory {
+	public Operacion createOperacionEsporadico(OperacionCreator , TipoPago);
+}

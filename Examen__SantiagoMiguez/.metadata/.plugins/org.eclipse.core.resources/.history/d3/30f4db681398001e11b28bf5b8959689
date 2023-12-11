@@ -1,0 +1,30 @@
+package factory_santi.factory;
+
+import java.time.LocalDate;
+
+import factory_santi.product.Operacion;
+import modelo.Repostaje;
+import modelo.RepostajeNoTerminadoException;
+import modelo.TipoCliente;
+
+public abstract class OperacionCreator {
+	/*
+	 * Ejercicio no acabado...
+	 * he encontrado varios problemas que me han supuesto barrera
+	 * 1 -> varias cosas por constructor
+	 * 2 -> el cliente esporadico me puede meter X metodo de pago
+	 */
+	
+	
+	//me estoy rayando muchisimo, el cliente esporacido me mató
+	public Operacion crear(TipoCliente tipoCliente,Repostaje repostaje, LocalDate fecha, String matricula) throws RepostajeNoTerminadoException {
+		
+		Operacion operacion = tipoCliente.factoryMethod(); // obtendo el tipo de OperacionConCliente;
+		// Se que todos los set public son un poco guarro, el dejar todo 
+		operacion.setRepostaje(repostaje);
+		operacion.setFecha(fecha);
+		return operacion;
+	}
+	
+	
+}

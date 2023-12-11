@@ -1,0 +1,21 @@
+package factory_santi.factory;
+
+import java.time.LocalDate;
+
+import modelo.Operacion;
+import modelo.Repostaje;
+import modelo.RepostajeNoTerminadoException;
+import modelo.TipoCliente;
+
+public abstract class OperacionCreator {
+	//me estoy rayando muchisimo, el cliente esporacido me mató
+	public Operacion crear(TipoCliente tipoCliente,Repostaje repostaje, LocalDate fecha, String matricula) throws RepostajeNoTerminadoException {
+		
+		Operacion operacion = factoryMethod(repostaje,fecha,matricula);
+		operacion.setTipoPago(tipoCliente.getTipoPago());// esque el esporadico nunca sabre lo que me mete...
+		
+		return operacion;
+	}
+	
+	public abstract Operacion factoryMethod(Repostaje repostaje, LocalDate fecha, String matricula)throws RepostajeNoTerminadoException;
+}

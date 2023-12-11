@@ -1,0 +1,13 @@
+package adapter_santi;
+
+import java.util.Optional;
+
+import modelo.Operacion;
+import modelo.Par;
+import modelo.TipoPago;
+
+public interface IPagoGasolinera {
+	public void procesarPago(Operacion operacion);
+
+	public Optional<Par<TipoPago, Float>> getPagoByIdRepostaje(long idRepostaje);
+}

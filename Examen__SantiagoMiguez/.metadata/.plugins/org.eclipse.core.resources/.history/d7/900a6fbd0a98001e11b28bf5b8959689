@@ -1,0 +1,20 @@
+package modelo;
+
+import java.util.function.Supplier;
+
+public enum TipoCliente {
+	esporadico,
+	habitual,
+	asociado;
+	
+	private Supplier<TipoPago> tipoPago;
+	
+	private TipoCliente(Supplier<TipoPago> tipoPago) {
+		this.tipoPago = tipoPago;
+	}
+
+	public TipoPago getTipoPago() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

@@ -1,0 +1,21 @@
+package factory_santi.factory;
+
+import java.time.LocalDate;
+
+import modelo.Operacion;
+import modelo.Repostaje;
+import modelo.RepostajeNoTerminadoException;
+import modelo.TipoCliente;
+
+public abstract class OperacionCreator {
+	
+	public Operacion crear(TipoCliente tipoCliente) {
+		
+		Operacion operacion = factoryMethod();
+		operacion.setTipoPago(tipoCliente.getTipoPago());
+		
+		return null;
+	}
+	
+	public abstract Operacion factoryMethod(Repostaje repostaje, LocalDate fecha, String matricula)throws RepostajeNoTerminadoException;
+}
